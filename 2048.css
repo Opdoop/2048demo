@@ -1,0 +1,144 @@
+body{
+    background: url(graph/bm.png) repeat-y;
+    background-size:100%;
+}
+header{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+header h1{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header #N_gameButton{
+    display: block;
+    margin: 20px auto;
+
+    width: 100px;
+    padding: 6px 6px;
+    background-color: #2b458f;
+
+    font-family: Arial;
+    color: white;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+}
+
+header  #N_gameButton:hover{
+    background-color: #76949f;
+}
+
+.N_tryButton{
+    display: block;
+    /*margin: 20px auto;*/
+
+    width: 100px;
+    padding: 6px 6px;
+    top:40%;
+    left:33%;
+    background-color: #2b458f;
+    position: absolute;
+    font-family: Arial;
+    font-size:50%;
+    color: white;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+}
+
+#N_tryButton:hover{
+    background-color: #76949f;
+}
+
+
+.score {
+    opacity:0.8;
+    width: 100px;
+    border-radius: 10px;
+    padding: 6px 6px;
+    font-family: Arial;
+    font-size: 20px;
+    margin:15px auto;
+    background-color: #76949f;
+
+}
+
+#grid-container{
+    vertical-align: middle;
+    width:460px;
+    height: 460px;
+    padding: 20px;
+    z-index: 100;
+    margin:0 auto;
+
+    background-color: #1f889f;
+    z-index: 99;
+    border-radius: 6%;
+    position: relative;
+}
+
+.grid-cell{
+    width:100px;
+    height: 100px;
+    border-radius:50px;
+    background-color: #9fccc8;
+
+    position: absolute;
+
+}
+
+.number-cell{
+    border-radius: 6px;
+    opacity: 1.0;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+    background-size:100%;
+    position: absolute;
+}
+
+
+.mask{
+
+
+}
+
+.success{
+    /*top: 255px;*/
+    /*left: 519px;*/
+    background:url(graph/success.png) no-repeat;
+    background-size:100%;
+
+    position: absolute;
+    border-radius: 10px;
+    top:25%;
+    left:4%;
+    z-index: 102;
+    /*display: none;*/
+    /*color:#FF9999;*/
+}
+
+.fail{
+    background:url(graph/fail.png) no-repeat;
+    background-size:100%;
+    position: absolute;
+    border-radius: 10px;
+    top:25%;
+    left:4%;
+    /*top: 255px;*/
+    /*left: 519px;*/
+    z-index: 102;
+    /*display: none;*/
+
+    /*color:pink;*/
+}
